@@ -1,0 +1,21 @@
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gameBoard {
+    font-family: "Permaent Marker", cursive;
+    text-align: center;
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 225px;
+    margin: auto;
+}
