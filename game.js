@@ -42,7 +42,7 @@ function changePlayer(){
     statusText.textContent = `${currentPlayer}'s turn`
 }
 function checkWinner(){
-    let roundWon = false;
+    let roundWon = false; 
 
     for(let i = 0; i < winConditions.length; i++){
         const condition = winConditions[i];
